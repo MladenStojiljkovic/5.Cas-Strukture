@@ -67,7 +67,15 @@ namespace Pr_1_Konstruktori
             r3.Ispisi();
             Console.Write("r4 = ");
             r4.Ispisi();
-
+            Racionalan r5 = r1;
+            Console.Write("r5 = ");
+            r5.Ispisi();
+            r5.brojilac = 9;
+            r5.imenilac = 5;
+            Console.Write("Novo r5 =  ");
+            r5.Ispisi();
+            Console.Write("r1 = ");
+            r1.Ispisi();
         }
     }
 }
